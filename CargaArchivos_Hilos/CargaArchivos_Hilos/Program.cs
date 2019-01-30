@@ -16,7 +16,7 @@ namespace CargaArchivos_Hilos
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Hilos());
         }
     }
 }
