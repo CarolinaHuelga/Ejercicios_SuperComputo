@@ -12,6 +12,9 @@ namespace CargaArchivos_Hilos
 {
     public partial class Hilos : Form
     {
+
+        public List<string> palabras = new List<string>();
+
         public Hilos()
         {
             InitializeComponent();
@@ -30,7 +33,8 @@ namespace CargaArchivos_Hilos
             if (seleccion.ShowDialog() == DialogResult.OK)
             {
                 // Assign the cursor in the Stream to the Form's Cursor property.  
-                this.Cursor = new Cursor(seleccion.OpenFile());
+                var Cursor = seleccion.OpenFile();
+                
             }
         }
     }

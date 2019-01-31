@@ -777,7 +777,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(417, 457);
+            this.ClientSize = new System.Drawing.Size(417, 447);
             this.Controls.Add(this.btnSeleccionArchivo);
             this.Controls.Add(this.textBox25);
             this.Controls.Add(this.label27);
